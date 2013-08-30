@@ -1,0 +1,25 @@
+{
+    "name": "resource-type-model",
+    "version": "1.0",
+    "description": "Example for resource type defined in MOAT IoT Model Descriptor.",
+    "Maintainers": [
+				{
+						"name": "Tokyo Engineering Team",
+						"email": "asparagus@yourinventit.com"
+				},
+    ],
+    "bugs": {
+				"mail": "iidn-sys-notice@yourinventit.com"
+    },
+    "models" : {
+				"File" : {
+						"array" : true,
+						"shared" : true,
+						"attributes" : {
+								"name" : {"type" : "string"},
+								"object": {"type" : "resource"}
+						}
+				}
+    }
+}
+
